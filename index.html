@@ -167,6 +167,17 @@
                         <li class="acction-list"><a href="#" class="acction-link"><svg width="20" height="20" class="acction-icon"><use href="./images/sprite_new.svg#facebook"></use></svg></a></li>
                         <li class="acction-list"><a href="#" class="acction-link"><svg width="20" height="20" class="acction-icon"><use href="./images/sprite_new.svg#linkedin"></use></svg></a></li>
                         </ul></div>
+                    <div class="email-input">
+                            <form name="mailing" autocomplete="off" novalidate class="form-join">
+                                <label class="joining-us">
+                                    <span class="joining-span">Підпишіться на розсилку</span> 
+                                    <input type="email" name="email" placeholder="E-mail" class="joining-input">
+                                </label>
+                                <button type="submit" class="joining-button">
+                                    Підписатися<svg class="icon-send-svg" width="24" height="24"><use href="./images/sprite_new.svg#icon_send"></use></svg></button>
+                                    
+                            </form>
+                        </div>
                     </div>
             </div>
         </footer>
@@ -175,6 +186,38 @@
                 <button type="button" class="close-button" data-modal-close>
                     <svg class="svg-button-close"><use href="./images/sprite_new.svg#close-black"></use></svg>
                 </button>
+                <p class="modal-heading">Залиште свої дані, ми вам передзвонимо</p>
+                <form name="sign-up" autocomplete="off">
+                    <div class="modal-div">
+                        <label><span class="modal-titels">Ім'я</span>
+                        <input type="email" class="modal-input" name="email">
+                        <span class="icon-modal"><svg width="18" height="18"><use href="./images/sprite_new.svg#icon-person"></use></svg></span>
+                        </label>
+                    </div>
+                    <div class="modal-div">
+                        <label><span class="modal-titels">Телефон</span>
+                        <input type="email" class="modal-input" name="email">
+                        <span class="icon-modal"><svg width="18" height="18"><use href="./images/sprite_new.svg#phone_black"></use></svg></span>
+                        </label>
+                    </div>
+                    <div class="modal-div">
+                        <label><span class="modal-titels">Пошта</span>
+                        <input type="email" class="modal-input" name="email">
+                        <span class="icon-modal"><svg width="18" height="18"><use href="./images/sprite_new.svg#email_black"></use></svg></span>
+                        </label>
+                    </div>
+                    <label >
+                        <span class="modal-titels">Коментар</span>
+                        <textarea name="comment-icon" placeholder="Введіть текст" class="comment-icon-area" rows="7"></textarea>
+                    </label>
+                    <label class="checkbox-rules">
+                        <input class="checkbox" type="checkbox" name="policy"/>
+                        <span class="checkbox-icon"></span>
+                        <span class="rules-title">Погоджуюся з розсилкою та приймаю<a href="#" class="blue-title"> Умови договору</a></span>
+                    </label>
+                        
+                    <button type="submit" class="modal-button hero-btn">Відправити</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
